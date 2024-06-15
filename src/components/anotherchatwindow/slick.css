@@ -1,0 +1,4 @@
+.slick-prev,
+.slick-next {
+  display: none !important; /* Hide the default slick navigation buttons */
+}

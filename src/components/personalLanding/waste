@@ -1,0 +1,250 @@
+<div
+          id="card1"
+          className="p-3 relative sm:col-span-6 rounded-xl sm:row-span-10 sm:h-auto sm:w-auto h-52 w-72 bg-white border-gray-400 border-[0.5px]  hover:drop-shadow-lg drop-shadow-gray-300"
+        >
+          <button className="flex gap-1 items-center bg-gray-200 text-sm rounded-full px-3">
+            <img className="h-3 w-auto" src={star} alt="" />9
+          </button>
+          <div className="text-base font-sans font-medium sm:mt-2 md:mt-3 mt-4">
+            Talk to my AI
+          </div>
+          <div className="flex absolute justify-between bottom-2 bg-gray-200 w-[90%] py-[6px] px-2  rounded-lg">
+            <div className="flex gap-1 items-center text-[12px] font-medium">
+              <img className="h-4 w-auto" src={calendar} alt="" />
+              30 mins
+            </div>
+            <Link to='/ChatWindow'>
+            <button className="flex gap-1 items-center border-black border-[1px] rounded-full p-1 px-3">
+              {/* <div class="text-[10px]">$49</div> */}
+              <div className="text-sm">Free</div>
+              <img
+                className="h-3 w-auto"
+                src={smallright}
+                alt=""
+                />
+            </button>
+            </Link>
+          </div>
+        </div>
+        <div
+          id="card2"
+          className="p-3 relative sm:col-span-6 rounded-xl sm:row-span-12 sm:h-auto sm:w-auto h-52 w-72 bg-white border-gray-400 border-[0.5px]  hover:drop-shadow-lg drop-shadow-gray-300"
+        >
+          <button className="flex gap-1 items-center bg-gray-200 text-sm rounded-full px-3">
+            <img className="h-3 w-auto" src={star} alt="" />7
+          </button>
+          <div className="text-base font-sans font-medium sm:mt-2 md:mt-3 mt-4">
+            1 to 1 talk
+          </div>
+          <div className="flex absolute justify-between bottom-2 bg-gray-200 w-[90%] py-[6px] px-2  rounded-lg">
+            <div className="flex gap-1 items-center text-[12px] font-medium">
+              <img className="h-4 w-auto" src={calendar} alt="" />
+              30 mins
+            </div>
+            <button className="flex gap-1 items-center border-black border-[1px] rounded-full p-1 px-3">
+              {/* <div class="text-[10px]">$49</div> */}
+              <div className="text-sm">$29</div>
+              <img
+                className="h-3 w-auto"
+                src={smallright}
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          id="card3"
+          className="p-3 relative sm:col-span-6 rounded-xl sm:row-span-12 sm:h-auto sm:w-auto h-52 w-72 bg-white border-gray-400 border-[0.5px]  hover:drop-shadow-lg drop-shadow-gray-300"
+        >
+          <button className="flex gap-1 items-center bg-gray-200 text-sm rounded-full px-3">
+            <img className="h-3 w-auto" src={star} alt="" />
+            15
+          </button>
+          <div className="text-base font-sans font-medium sm:mt-2 md:mt-3 mt-4">
+            Mentorship Session
+          </div>
+          <div className="flex absolute justify-between bottom-2 bg-gray-200 w-[90%] py-[6px] px-2  rounded-lg">
+            <div className="flex gap-1 items-center text-[12px] font-medium">
+              <img className="h-4 w-auto" src={calendar} alt="" />
+              60 mins
+            </div>
+            <button className="flex gap-1 items-center border-black border-[1px] rounded-full p-1 px-3">
+              {/* <div class="text-[10px]">$49</div> */}
+              <div className="text-sm">$49</div>
+              <img
+                className="h-3 w-auto"
+                src={smallright}
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          id="card4"
+          className="p-3 relative sm:col-span-6 rounded-xl sm:row-span-10 sm:h-auto sm:w-auto h-52 w-72 bg-white border-gray-400 border-[0.5px]  hover:drop-shadow-lg drop-shadow-gray-300"
+        >
+          <button className="flex gap-1 items-center bg-gray-200 text-sm rounded-full px-3">
+            <img className="h-3 w-auto" src={star} alt="" />
+            29
+          </button>
+          <div className="text-base font-sans font-medium sm:mt-2 md:mt-3 mt-4">
+            Networking Coffee Date
+          </div>
+          <div className="flex absolute justify-between bottom-2 bg-gray-200 w-[90%] py-[6px] px-2  rounded-lg">
+            <div className="flex gap-1 items-center text-[12px] font-medium">
+              <img className="h-4 w-auto" src={calendar} alt="" />
+              180 mins
+            </div>
+            <button className="flex gap-1 items-center border-black border-[1px] rounded-full p-1 px-3">
+              {/* <div class="text-[10px]">$49</div> */}
+              <div className="text-sm">$99</div>
+              <img
+                className="h-3 w-auto"
+                src={smallright}
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          id="card5"
+          className="p-3 relative sm:col-span-6 rounded-xl sm:row-span-10 sm:h-auto sm:w-auto h-52 w-72 bg-white border-gray-400 border-[0.5px]  hover:drop-shadow-lg drop-shadow-gray-300"
+        >
+          <button className="flex gap-1 items-center bg-gray-200 text-sm rounded-full px-3">
+            <img className="h-3 w-auto" src={star} alt="" />9
+          </button>
+          <div className="text-base font-sans font-medium sm:mt-2 md:mt-3 mt-4">
+            Podcast Planning Session
+          </div>
+          <div className="flex absolute justify-between bottom-2 bg-gray-200 w-[90%] py-[6px] px-2  rounded-lg">
+            <div className="flex gap-1 items-center text-[12px] font-medium">
+              <img className="h-4 w-auto" src={calendar} alt="" />
+              120 mins
+            </div>
+            <button className="flex gap-1 items-center border-black border-[1px] rounded-full p-1 px-3">
+              {/* <div class="text-[10px]">$49</div> */}
+              <div className="text-sm">$79</div>
+              <img
+                className="h-3 w-auto"
+                src={smallright}
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          id="card6"
+          className="p-3 relative sm:col-span-6 rounded-xl sm:row-span-12 sm:h-auto sm:w-auto h-52 w-72 bg-white border-gray-400 border-[0.5px]  hover:drop-shadow-lg drop-shadow-gray-300"
+        >
+          <button className="flex gap-1 items-center bg-gray-200 text-sm rounded-full px-3">
+            <img className="h-3 w-auto" src={star} alt="" />4
+          </button>
+          <div className="text-base font-sans font-medium sm:mt-2 md:mt-3 mt-4">
+            Content Strategy Chat
+          </div>
+          <div className="flex absolute justify-between bottom-2 bg-gray-200 w-[90%] py-[6px] px-2  rounded-lg">
+            <div className="flex gap-1 items-center text-[12px] font-medium">
+              <img className="h-4 w-auto" src={calendar} alt="" />
+              15 mins
+            </div>
+            <button className="flex gap-1 items-center border-black border-[1px] rounded-full p-1 px-3">
+              {/* <div class="text-[10px]">$49</div> */}
+              <div className="text-sm">$19</div>
+              <img
+                className="h-3 w-auto"
+                src={smallright}
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          id="card7"
+          className="p-3 relative sm:col-span-6 rounded-xl sm:row-span-12 sm:h-auto sm:w-auto h-52 w-72 bg-white border-gray-400 border-[0.5px]  hover:drop-shadow-lg drop-shadow-gray-300"
+        >
+          <button className="flex gap-1 items-center bg-gray-200 text-sm rounded-full px-3">
+            <img className="h-3 w-auto" src={star} alt="" />8
+          </button>
+          <div className="text-base font-sans font-medium sm:mt-2 md:mt-3 mt-4">
+            Social Media Strategy Discussion
+          </div>
+          <div className="flex absolute justify-between bottom-2 bg-gray-200 w-[90%] py-[6px] px-2  rounded-lg">
+            <div className="flex gap-1 items-center text-[12px] font-medium">
+              <img className="h-4 w-auto" src={calendar} alt="" />
+              60 mins
+            </div>
+            <button className="flex gap-1 items-center border-black border-[1px] rounded-full p-1 px-3">
+              {/* <div class="text-[10px]">$49</div> */}
+              <div className="text-sm">$59</div>
+              <img
+                className="h-3 w-auto"
+                src={smallright}
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          id="card8"
+          className="p-3 relative sm:col-span-6 rounded-xl sm:row-span-10 sm:h-auto sm:w-auto h-52 w-72 bg-white border-gray-400 border-[0.5px]  hover:drop-shadow-lg drop-shadow-gray-300"
+        >
+          <button className="flex gap-1 items-center bg-gray-200 text-sm rounded-full px-3">
+            <img className="h-3 w-auto" src={star} alt="" />
+            13
+          </button>
+          <div className="text-base font-sans font-medium sm:mt-2 md:mt-3 mt-4">
+            Virtual Workshop
+          </div>
+          <div className="flex absolute justify-between bottom-2 bg-gray-200 w-[90%] py-[6px] px-2  rounded-lg">
+            <div className="flex gap-1 items-center text-[12px] font-medium">
+              <img className="h-4 w-auto" src={calendar} alt="" />
+              150 mins
+            </div>
+            <button className="flex gap-1 items-center border-black border-[1px] rounded-full p-1 px-3">
+              {/* <div class="text-[10px]">$49</div> */}
+              <div className="text-sm">$89</div>
+              <img
+                className="h-3 w-auto"
+                src={smallright}
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          id="card9"
+          className="p-3 relative sm:col-span-6 rounded-xl sm:row-span-10 sm:h-auto sm:w-auto h-52 w-72 bg-white border-gray-400 border-[0.5px]  hover:drop-shadow-lg drop-shadow-gray-300"
+        >
+          <button className="flex gap-1 items-center bg-gray-200 text-sm rounded-full px-3">
+            <img className="h-3 w-auto" src={star} alt="" />
+            11
+          </button>
+          <div className="text-base font-sans font-medium sm:mt-2 md:mt-3 mt-4">
+            Q&amp;A with the Creator
+          </div>
+          <div className="flex absolute justify-between bottom-2 bg-gray-200 w-[90%] py-[6px] px-2  rounded-lg">
+            <div className="flex gap-1 items-center text-[12px] font-medium">
+              <img className="h-4 w-auto" src={calendar} alt="" />
+              30 mins
+            </div>
+            <button className="flex gap-1 items-center border-black border-[1px] rounded-full p-1 px-3">
+              {/* <div class="text-[10px]">$49</div> */}
+              <div className="text-sm">$29</div>
+              <img
+                className="h-3 w-auto"
+                src={smallright}
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+
+
+
+
+        <div
+        id="cards"
+        className="sm:grid sm:grid-cols-12 sm:grid-rows-12 gap-4 grid m-8 place-content-center"
+      >
+        
+      </div>
